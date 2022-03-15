@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 100px;
+}
+
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url("../images/achtergrond.png");
+    background-size: cover;
+    background-position: right ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn{
+    position: relative;
+    background: #77a1c7;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-style: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky{
+    background: #7caac9;
+    padding: 20px 100px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+header .navbar{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color:black;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about{
+    background: #99c9e9;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contentBx b{
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.Vaardigheden{
+    background: #8dbcdb;
+}
+
+.heading.white{
+    color: #fff;
+}
+
+.heading .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.Vaardigheden .content .vaardighedenBx{
+    padding: 40px 20px;
+    background: #99c9e9;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.Vaardigheden .content .vaardighedenBx:hover{
+    background:#84b7da;
+}
+
+.projecten{
+    background: #99c9e9;
+}
+
+.projecten .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    }
+
+    .projecten .content2 .projectBx{
+        padding: 40px 20px;
+        background: #77a1c7;
+        color: #fff;
+        max-width: 340px;
+        margin: 20px;
+        text-align: center;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+    
+.contact{
+    background: #84b7da;
+}
+
+.contactInfo{
+    min-width: 40%;
+}
+
+.contactInfoBx{
+    position: relative;
+}
+
+.contactInfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfoBx .box .icon{
+    min-width: 40px;
+    padding-top: 4px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.contactInfoBx .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.project1{
+    background: #99c9e9;
+}
+
+.project2{
+    background: #8dbcdb;
+}
+
+.project3{
+    background: #99c9e9;
+}
+
+.project4{
+    background: #8dbcdb;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.rekenmachineImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .HL{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .BKEimg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
